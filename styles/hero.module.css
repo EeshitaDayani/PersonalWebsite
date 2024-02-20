@@ -37,17 +37,16 @@
   margin-top: 30px;
 }
 
-#intro {
-  font-size: 15px;
-  font-weight: bolder;
-  margin: 0;
-  color: #4e7870;
+.title {
+  display: flex;
+  flex-direction: column;
 }
 
 #name {
   font-size: 40px;
   font-weight: bolder;
   margin: 0;
+  align-self: center;
 }
 
 #description {
@@ -55,6 +54,7 @@
   font-weight: bolder;
   color: #4e7870;
   margin-top: 20px;
+  align-self: center;
 }
 
 .greenContainer {
