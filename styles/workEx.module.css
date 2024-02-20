@@ -1,0 +1,22 @@
+.workex {
+    padding: 60px;
+    padding: 30px;
+    background-color: #6ba99e;
+}
+
+
+.heading {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #283936;
+}
+
+.description {
+    color: #3b544f;
+    font-weight: bold;
+}
+
+.greenContainer {
+    height: 10vh;
+    background-color: #6ba99e;
+  }
