@@ -1,6 +1,6 @@
 import styles from "@/styles/workEx.module.css";
 
-export default function Hero() {
+export default function workEx() {
   return (
     <div className={styles.workex}>
       <div className={styles.card}>

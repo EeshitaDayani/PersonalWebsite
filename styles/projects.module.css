@@ -1,0 +1,48 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #f2efee;
+}
+
+.projects > div {
+  margin: 10px;
+}
+
+#title {
+  font-size: large;
+  font-weight: bold;
+  align-self: center;
+  color: #3b544f;
+}
+
+.heading {
+  font-size: larger;
+  font-weight: bold;
+  color: #3b544f;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: space-evenly;
+}
+
+.explore {
+  border-radius: 3px;
+  width: 80px;
+  height: 30px;
+  align-self: center;
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #3b544f;
+  padding: 0px;
+}
+
+.explore:active {
+  background-color: #e6f1ee;
+}

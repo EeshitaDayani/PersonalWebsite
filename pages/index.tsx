@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import ParticlesBg from "./particlesBg";
 import Hero from "./hero";
 import WorkEx from "./workEx"
+import Projects from "./projects";
 
 const inter = Montserrat({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function Home() {
         {/* <ParticlesBg /> */}
         <Hero />
         <WorkEx />
+        <Projects />
       </main>
     </>
   );
