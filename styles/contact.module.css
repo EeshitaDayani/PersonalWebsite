@@ -16,6 +16,7 @@
 
 .input {
   border: 0;
+  border-radius: 0;
   background-color: #f2efee;
   height: 30px;
   border-bottom: 1px solid #3b544f;
