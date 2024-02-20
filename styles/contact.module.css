@@ -1,0 +1,58 @@
+.contact {
+  padding: 50px;
+  background-color: #f2efee;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: medium;
+  color: #3b544f;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  border: 0;
+  background-color: #f2efee;
+  height: 30px;
+  border-bottom: 1px solid #3b544f;
+  color: #4a6a64;
+  outline: none;
+  padding: 5px;
+  margin: 10px;
+  font-size: medium;
+}
+
+.message {
+  text-size-adjust: none;
+  border: 0;
+  background-color: #f2efee;
+  height: 60px;
+  border-bottom: 1px solid #3b544f;
+  color: #4a6a64;
+  outline: none;
+  padding: 5px;
+  margin: 10px;
+  font-size: medium;
+  font-family: "Arial";
+}
+
+.button {
+  border-radius: 3px;
+  width: 80px;
+  height: 30px;
+  align-self: center;
+  text-align: center;
+  background-color: #f2efee;
+  border: 1px solid #3b544f;
+  padding: 0px;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.button:active {
+  background-color: #e6f1ee;
+}
