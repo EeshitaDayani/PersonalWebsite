@@ -54,7 +54,7 @@ export default function Projects() {
               window.location.href = p.link;
             }}
           >
-            Explore
+            EXPLORE
           </button>
         </div>
       ))}
