@@ -1,12 +1,12 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
 import ParticlesBg from "./particlesBg";
 import Hero from "./hero";
 import WorkEx from "./workEx"
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Montserrat({ subsets: ["latin"] });
 
 export default function Home() {
   return (
