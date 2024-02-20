@@ -20,6 +20,12 @@
   color: #537871;
   font-size: small;
   background-color: #f2efee;
+  align-self: center;
+  height: 20px;
+}
+
+.button:active {
+  color: #42605b;
 }
 
 .hero {
