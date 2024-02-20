@@ -29,6 +29,7 @@
 .message {
   text-size-adjust: none;
   border: 0;
+  border-radius: 0;
   background-color: #f2efee;
   height: 60px;
   border-bottom: 1px solid #3b544f;
@@ -51,6 +52,7 @@
   padding: 0px;
   margin: 10px;
   margin-top: 20px;
+  color: #3b544f;
 }
 
 .button:active {
