@@ -14,7 +14,7 @@ export default function Hero() {
       <div className={styles.hero}>
         <div className={styles.title}>
           <p id={styles.name}>Eeshita Dayani </p>
-          <p id={styles.description}>Software Developer</p>
+          <p id={styles.description}>SOFTWARE DEVELOPER</p>
         </div>
         <Image className={styles.image} src={photo.default} alt="Image" />
         <div className={styles.subtitle}>
