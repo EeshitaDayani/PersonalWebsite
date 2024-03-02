@@ -1,6 +1,5 @@
 import styles from "@/styles/hero.module.css";
 import Image from "next/image";
-// import photo from "@/public/photo.png";
 const photo = require("@/public/photo.png");
 
 export default function Hero() {
@@ -20,7 +19,6 @@ export default function Hero() {
         <div className={styles.subtitle}>
         </div>
       </div>
-      <div className={styles.greenContainer}></div>
     </div>
   );
 }

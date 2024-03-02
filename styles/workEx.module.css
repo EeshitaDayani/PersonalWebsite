@@ -1,20 +1,32 @@
 .workex {
-    padding: 30px;
-    background-image: linear-gradient(#6ba99e, #7daba3)
+  padding: 30px;
+  background-color: #f2efee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.title {
+  font-size: large;
+  font-weight: bold;
+  align-self: center;
+  color: #3b544f;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  padding: 20px;
 }
 
 .heading {
-    font-size: xx-large;
-    font-weight: bolder;
-    color: #283936;
+  font-size: larger;
+  font-weight: bold;
+  color: #3b544f;
 }
 
-.description {
-    color: #334844;
-    font-weight: bold;
-}
-
-.greenContainer {
-    height: 10vh;
-    background-color: #7daba3;
-  }
+/* .description {
+  color: #334844;
+  font-weight: bold;
+} */

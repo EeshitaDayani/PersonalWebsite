@@ -3,6 +3,7 @@ import styles from "@/styles/workEx.module.css";
 export default function workEx() {
   return (
     <div className={styles.workex}>
+      <p className={styles.title}>WORK EXPERIENCE</p>
       <div className={styles.card}>
         <p className={styles.heading}>Fullstack</p>
         <p className={styles.description}>
@@ -19,8 +20,6 @@ export default function workEx() {
           for product and consumer analytics.
         </p>
       </div>
-
-      <div className={styles.greenContainer}></div>
     </div>
   );
 }
