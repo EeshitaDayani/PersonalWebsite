@@ -2,7 +2,7 @@ import styles from "@/styles/contact.module.css";
 
 export default function Contact() {
   return (
-    <div className={styles.contact}>
+    <div className={styles.contact} id='contact'>
       <p className={styles.heading}>Let's get in touch!</p>
       <div className={styles.user}>
         <input
@@ -23,6 +23,9 @@ export default function Contact() {
       <button className={styles.button}>
         SEND
       </button>
+      <div className={styles.links}>
+        
+      </div>
     </div>
   );
 }

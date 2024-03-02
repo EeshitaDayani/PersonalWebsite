@@ -14,14 +14,17 @@
   background-color: #f2efee;
 }
 
+.a {
+  align-self: center;
+  height: 20px;
+}
+
 .button {
   border: 0;
   font-weight: bolder;
   color: #537871;
   font-size: small;
   background-color: #f2efee;
-  align-self: center;
-  height: 20px;
 }
 
 .button:active {

@@ -41,7 +41,7 @@ const projects: Project[] = [
 
 export default function Projects() {
   return (
-    <div className={styles.projects}>
+    <div className={styles.projects} id='projects'>
       <p id={styles.title}>PROJECTS</p>
       {projects.map((p, index) => (
         <div key={index} className={styles.card}>
