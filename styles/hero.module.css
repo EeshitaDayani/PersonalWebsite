@@ -54,6 +54,10 @@
   flex-direction: column;
 }
 
+#intro {
+  display: none;
+}
+
 #name {
   font-size: 40px;
   font-weight: bolder;
@@ -72,4 +76,54 @@
 .greenContainer {
   height: 10vh;
   background-color: #6ba99e;
+}
+
+
+@media (min-width:641px)  {
+  .hero {
+    flex-direction: row;
+    gap: 80px;
+  }
+
+  .navbar {
+    width: 30%;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f2efee;
+  }
+
+  .title {
+    align-self: center;
+  }
+
+  #name {
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 0;
+    align-self: center;
+  }
+
+  #description {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #4e7870;
+    margin-top: 20px;
+    align-self: flex-start;
+  }
+
+  .image {
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    align-self: center;
+  }
+
+  #intro {
+    display: block;
+    font-weight: bold;
+    color: #4e7870;
+  }
+
 }

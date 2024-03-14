@@ -19,6 +19,7 @@ export default function Hero() {
       </div>
       <div className={styles.hero}>
         <div className={styles.title}>
+          <p id={styles.intro}>Hi there! I'm </p>
           <p id={styles.name}>Eeshita Dayani </p>
           <p id={styles.description}>SOFTWARE DEVELOPER</p>
         </div>
