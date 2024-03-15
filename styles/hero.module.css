@@ -25,6 +25,7 @@
   color: #537871;
   font-size: small;
   background-color: #f2efee;
+  cursor: pointer;
 }
 
 .button:active {
@@ -83,6 +84,7 @@
   .hero {
     flex-direction: row;
     gap: 80px;
+    justify-content: space-around;
   }
 
   .navbar {
@@ -114,8 +116,8 @@
   }
 
   .image {
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     margin-top: 30px;
     align-self: center;
   }
