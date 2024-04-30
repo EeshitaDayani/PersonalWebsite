@@ -7,15 +7,18 @@ const favColor = "blue";
 export default function Contact() {
   const [color, setColor] = useState("");
   const [attempts, setAttempts] = useState(0);
-  const [correctGuess, setCorrectGuess] = useState(false);
+  const [correctGuess, setCorrectGuess] = useState(true);
 
   return (
     <div id="contact" className="flex flex-col gap-8 p-8">
-      <p className="font-semibold text-3xl">
-        Guess my favorite color to reveal my contact details!
+      <p className="font-semibold text-3xl text-center">
+        Contact me!
       </p>
+      {/* <p className="font-semibold text-3xl">
+        Guess my favorite color to reveal my contact details!
+      </p> */}
 
-      <input
+      {/* <input
         id="color"
         type="text"
         value={color}
@@ -31,13 +34,13 @@ export default function Contact() {
           }
         }}
         disabled={correctGuess}
-      ></input>
+      ></input> */}
 
       {correctGuess && (
         <div>
-          <p className="font-semibold text-2xl text-center">Correct!</p>
+          {/* <p className="font-semibold text-2xl text-center">Correct!</p> */}
 
-          <div id="contact-icons" className="flex flex-row justify-between p-8">
+          <div id="contact-icons" className="flex flex-row justify-between sm:justify-center sm:gap-12 p-8">
             <button
               id="github"
               type="button"
