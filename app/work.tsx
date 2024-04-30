@@ -37,7 +37,7 @@ export default function Work() {
   return (
     <div id="work" className="flex flex-col gap-8 p-8">
       <p className="font-semibold text-3xl">Work Experience</p>
-      {experiences.map((ex, index) => (
+      {experiences.map((ex) => (
         <div
           key={ex.company}
           className={`m-2 border-solid rounded-lg ${ex.color} border-4 p-4`}
