@@ -31,33 +31,44 @@ const experiences: Work[] = [
     color: "border-pink-600",
     underline: "decoration-pink-600",
   },
+  {
+    title: "Software Developer Intern",
+    company: "Searchspring",
+    description: `At Searchspring, I worked with Typescript and Vue to develop Searchspring's client facing platform. Additionally, 
+    I migrated their database architecture from MySQL to AWS Redshift using Golang, PHP, and SQL.`,
+    link: "https://searchspring.com/",
+    color: "border-green-600",
+    underline: "decoration-green-600",
+  },
 ];
 
 export default function Work() {
   return (
-    <div id="work" className="flex flex-col gap-8 p-8">
-      <p className="font-semibold text-3xl">Work Experience</p>
-      {experiences.map((ex) => (
-        <div
-          key={ex.company}
-          className={`m-2 border-solid rounded-lg ${ex.color} border-4 p-4`}
-        >
-          <p className="font-semibold text-xl">{ex.title} @ </p>
-          <p
-            className={`font-semibold text-xl mb-2 underline underline-offset-4 ${ex.underline}`}
-            onClick={(e) => {
-              e.preventDefault();
-              const win = window.open(ex.link, "_blank");
-              if (win != null) {
-                win.focus();
-              }
-            }}
+    <div id="work" className="flex flex-col p-8 sm:p-12 gap-8">
+      <p className="font-semibold text-3xl text-center">Work Experience</p>
+      <div className="flex flex-col gap-8 md:flex-row justify-center">
+        {experiences.map((ex) => (
+          <div
+            key={ex.company}
+            className={`m-2 border-solid rounded-lg ${ex.color} border-4 p-4 w-[320px]`}
           >
-            {ex.company}
-          </p>
-          <p>{ex.description}</p>
-        </div>
-      ))}
+            <p className="font-semibold text-xl">{ex.title} @ </p>
+            <p
+              className={`font-semibold text-xl mb-2 underline underline-offset-4 ${ex.underline}`}
+              onClick={(e) => {
+                e.preventDefault();
+                const win = window.open(ex.link, "_blank");
+                if (win != null) {
+                  win.focus();
+                }
+              }}
+            >
+              {ex.company}
+            </p>
+            <p>{ex.description}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
