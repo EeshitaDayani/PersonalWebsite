@@ -53,18 +53,18 @@ const projects: Project[] = [
 
 export default function Projects() {
   return (
-    <div id="projects" className="flex flex-col gap-8 p-8 sm:p-12 pt-0">
-      <p className="font-semibold text-3xl text-center">Projects</p>
-      <div className="flex flex-col gap-8 sm:flex-row sm:flex-wrap justify-center">
+    <div id="projects" className="flex flex-col gap-8 p-8 pt-0 sm:p-12 sm:pt-0">
+      <p className="font-semibold text-3xl text-center">Technical Projects</p>
+      <div className="flex flex-col gap-8 sm:flex-row sm:flex-wrap justify-center items-center sm:items-stretch">
         {projects.map((p) => (
           <div
             key={p.link}
-            className={`m-2 border-solid rounded-lg ${p.color} border-4 p-4 w-[320px] flex flex-col justify-between`}
+            className={`border-solid rounded-lg ${p.color} border-4 p-4 w-[320px] flex flex-col justify-between min-w-[320px]`}
           >
             <p className="font-semibold text-xl mb-2">{p.title}</p>
             <p>{p.description}</p>
             <p
-              className={`text-md mt-2 text-center underline underline-offset-4 ${p.underline}`}
+              className={`cursor-pointer text-md mt-2 underline underline-offset-4 ${p.underline} w-20 self-center`}
               onClick={(e) => {
                 e.preventDefault();
                 const win = window.open(p.link, "_blank");

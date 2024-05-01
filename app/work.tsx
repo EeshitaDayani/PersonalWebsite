@@ -46,15 +46,15 @@ export default function Work() {
   return (
     <div id="work" className="flex flex-col p-8 sm:p-12 gap-8">
       <p className="font-semibold text-3xl text-center">Work Experience</p>
-      <div className="flex flex-col gap-8 md:flex-row justify-center">
+      <div className="flex flex-col gap-8 sm:flex-row sm:flex-wrap justify-center items-center sm:items-stretch">
         {experiences.map((ex) => (
           <div
             key={ex.company}
-            className={`m-2 border-solid rounded-lg ${ex.color} border-4 p-4 w-[320px]`}
+            className={`border-solid rounded-lg ${ex.color} border-4 p-4 min-w-[320px] w-[320px]`}
           >
             <p className="font-semibold text-xl">{ex.title} @ </p>
             <p
-              className={`font-semibold text-xl mb-2 underline underline-offset-4 ${ex.underline}`}
+              className={`font-semibold text-xl mb-2 underline underline-offset-4 ${ex.underline} cursor-pointer`}
               onClick={(e) => {
                 e.preventDefault();
                 const win = window.open(ex.link, "_blank");
