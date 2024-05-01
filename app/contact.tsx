@@ -93,9 +93,9 @@ export default function Contact() {
           </div>
         </div>
       )}
-      {!correctGuess && attempts > 0 && (
+      {/* {!correctGuess && attempts > 0 && (
         <p>Hint: It rhymes with "glue". Keep guessing!</p>
-      )}
+      )} */}
     </div>
   );
 }
