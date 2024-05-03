@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <>
+    <div className="relative flex flex-col justify-center align-middle">
       <div className="sm:hidden">
         <Image
           src="/phonebg2.png"
@@ -30,6 +30,6 @@ export default function Hero() {
         </p>
         <p className="text-1xl text-black text-center">ee • she • tah</p>
       </div>
-    </>
+    </div>
   );
 }
