@@ -9,7 +9,7 @@ export default function Hero() {
           width={700}
           height={1000}
           alt="smallscreen"
-          className="h-screen"
+          className="h-dvh"
         />
       </div>
       <div className="hidden sm:block">
