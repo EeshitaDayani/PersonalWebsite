@@ -12,7 +12,7 @@ const projects: Project[] = [
   {
     title: "NewsCloud",
     description:
-      "NewsCloud revolutionizes news consumption with a captivating 3D word sphere, providing an intuitive way to explore trending global headlines.",
+      "NewsCloud revolutionizes news consumption with a 3D word sphere displaying color-coded headlines.",
     link: "https://news-cloud-v2.vercel.app/",
     color: "border-lime-500",
     underline: "decoration-lime-500",

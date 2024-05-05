@@ -13,8 +13,8 @@ const experiences: Work[] = [
   {
     title: "Research Assistant",
     company: "University of Waterloo",
-    description: `Under the mentorship of Professor Diogo Barradas, I developed a web application using Typescript and Next.js
-     to visualisize data censorship activities from around the world. The project is a joint initiative with researchers from 
+    description: `Under the mentorship of Professor Diogo Barradas, I developed a web application using Next.js
+     to visualisize global data censorship activities. The project is a joint initiative with researchers from 
   Carnegie Mellon and UMass Amherst to collect and report censorship data using DNS Manipulation, TCP Packet Injection, 
   and Block Page Detection.`,
     link: "https://cs.uwaterloo.ca/",
@@ -24,7 +24,7 @@ const experiences: Work[] = [
   {
     title: "Data Scientist Intern",
     company: "Geotab",
-    description: `During my internship at Geotab, I specialized in developing dynamic KPI dashboards using Python, SQL, and 
+    description: `During my internship at Geotab, I specialized in developing dynamic dashboards using Python, SQL, and 
     Apache Superset to monitor over 4 million hardware devices. These dashboards were instrumental in identifying future investment
      trends, creating new flagship products, and uncovering customer discovery opportunities.`,
     link: "https://www.geotab.com/",
@@ -34,8 +34,9 @@ const experiences: Work[] = [
   {
     title: "Software Developer Intern",
     company: "Searchspring",
-    description: `At Searchspring, I worked with Typescript and Vue to develop Searchspring's client facing platform. Additionally, 
-    I migrated their database architecture from MySQL to AWS Redshift using Golang, PHP, and SQL.`,
+    description: `At Searchspring, I worked with Typescript and Vue to develop and add features to Searchspring's primary client 
+    facing platform. Additionally, I was responsible for migrating the backend database architecture from MySQL to AWS Redshift 
+    using Golang and SQL to speed up query retreival processes for generating KPI reports.`,
     link: "https://searchspring.com/",
     color: "border-green-600",
     underline: "decoration-green-600",
