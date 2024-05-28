@@ -18,7 +18,7 @@ export default function Hero() {
           width={2000}
           height={1000}
           alt="big screen"
-          className="h-screen object-none"
+          className="h-screen"
         />
       </div>
       <div
