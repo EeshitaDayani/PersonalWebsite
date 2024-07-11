@@ -49,6 +49,14 @@ const projects: Project[] = [
     color: "border-purple-500",
     underline: "decoration-purple-500",
   },
+  {
+    title: "Connections",
+    description:
+      "My take on NYT's Connections!",
+    link: "https://connections-lemon.vercel.app/",
+    color: "border-yellow-500",
+    underline: "decoration-yellow-500",
+  },
 ];
 
 export default function Projects() {
@@ -61,7 +69,7 @@ export default function Projects() {
             key={p.link}
             className={`border-solid rounded-lg ${p.color} border-4 p-4 w-[320px] flex flex-col justify-between min-w-[320px]`}
           >
-            <p className="font-semibold text-xl mb-2">{p.title}</p>
+            <p className="font-semibold text-xl mb-2 text-center">{p.title}</p>
             <p>{p.description}</p>
             <p
               className={`cursor-pointer text-md mt-2 underline underline-offset-4 ${p.underline} w-20 self-center`}
