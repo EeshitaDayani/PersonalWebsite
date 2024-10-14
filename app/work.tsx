@@ -11,12 +11,21 @@ type Work = {
 
 const experiences: Work[] = [
   {
+    title: "Software Developer Intern",
+    company: "Titan",
+    description: `At a NYC FinTech startup, I engineered automated trading tools for over 50K clients. 
+    I launched Titan Wrapped, a year-end feature that harnessed a clustering algorithm to craft personalized investment profiles 
+    and showcase financial achievements. This initiative not only highlighted Titan's value but also unlocked upselling opportunities.`,
+    link: "https://www.titan.com/",
+    color: "border-cyan-500",
+    underline: "decoration-cyan-500",
+  },
+  {
     title: "Research Assistant",
     company: "University of Waterloo",
-    description: `Under the mentorship of Professor Diogo Barradas, I developed a web application using Next.js
-     to visualisize global data censorship activities. The project is a joint initiative with researchers from 
-  Carnegie Mellon and UMass Amherst to collect and report censorship data using DNS Manipulation, TCP Packet Injection, 
-  and Block Page Detection.`,
+    description: `Under the guidance of Professor Diogo Barradas, I developed a dynamic web application with Typescript + Next.js to visualize 
+    global data censorship trends. This project focuses on collecting and reporting censorship data through techniques like DNS 
+    manipulation, TCP packet injection, and block page detection.`,
     link: "https://cs.uwaterloo.ca/",
     color: "border-amber-500",
     underline: "decoration-amber-500",
@@ -24,9 +33,9 @@ const experiences: Work[] = [
   {
     title: "Data Scientist Intern",
     company: "Geotab",
-    description: `During my internship at Geotab, I specialized in developing dynamic dashboards using Python, SQL, and 
-    Apache Superset to monitor over 4 million hardware devices. These dashboards were instrumental in identifying future investment
-     trends, creating new flagship products, and uncovering customer discovery opportunities.`,
+    description: `During my internship at Geotab, I specialized in developing interactive dashboards using Python, SQL, and Apache 
+    Superset to monitor over 4 million hardware devices. These powerful dashboards were crucial in identifying future investment trends, 
+    guiding the creation of new flagship products, and uncovering valuable customer discovery opportunities.`,
     link: "https://www.geotab.com/",
     color: "border-pink-600",
     underline: "decoration-pink-600",
@@ -34,9 +43,9 @@ const experiences: Work[] = [
   {
     title: "Software Developer Intern",
     company: "Searchspring",
-    description: `At Searchspring, I worked with Typescript and Vue to develop and add features to Searchspring's primary client 
-    facing platform. Additionally, I was responsible for migrating the backend database architecture from MySQL to AWS Redshift 
-    using Golang and SQL to speed up query retreival processes for generating KPI reports.`,
+    description: `At Searchspring, I led the migration of our backend database architecture from MySQL to AWS Redshift, using Go 
+    and SQL to optimize query retrieval processes and accelerate KPI report generation. Additionally, I leveraged TypeScript + Vue 
+    to enhance and innovate features on our primary client-facing platform.`,
     link: "https://searchspring.com/",
     color: "border-green-600",
     underline: "decoration-green-600",
