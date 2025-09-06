@@ -13,8 +13,8 @@ const projects: Project[] = [
     title: "Mashed Potatoes",
     description: "Slice-of-life short story about the dysfunctional Smith family.",
     link: "https://docs.google.com/document/d/1QxO21akWRg6y_4RF5t0UeCFoYBm_oqu2/edit?usp=sharing&ouid=111826500620447735057&rtpof=true&sd=true",
-    color: "border-lime-500",
-    underline: "decoration-lime-500",
+    color: "border-cyan-500",
+    underline: "decoration-cyan-500",
   },
   {
     title: "The Seamstress' Thread",
