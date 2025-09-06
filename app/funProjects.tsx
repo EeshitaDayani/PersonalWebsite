@@ -17,9 +17,16 @@ const projects: Project[] = [
     underline: "decoration-lime-500",
   },
   {
+    title: "The Seamstress' Thread",
+    description: "A hidden letter leads a seamstress to uncover a family’s darkest secret.",
+    link: "https://docs.google.com/document/d/1MioAsVC-PrI1pxOdk2_hml-OdkMqg1JPgDJTEdsdCBw/edit?tab=t.0#heading=h.n5xehepoztk3",
+    color: "border-rose-500",
+    underline: "decoration-rose-500",
+  },
+  {
     title: "The Perfect Shade of Yellow",
     description:
-      "Poem about an artist searching for the most perfect shade of yellow",
+      "An artist searches for the perfect shade of yellow",
     link: "https://docs.google.com/document/d/1Y21UQ6rFPQoYgSImJuw3MawelhD5lSxJN3cKOvUliSY/edit?usp=sharing",
     color: "border-orange-500",
     underline: "decoration-orange-500",

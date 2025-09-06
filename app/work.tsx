@@ -12,10 +12,20 @@ type Work = {
 const experiences: Work[] = [
   {
     title: "Software Developer Intern",
+    company: "Google",
+    description: `As part of the AI Benchmarking team, I built worked on evaluating the code-generation abilities of large language models by 
+    building infrastructure for data curation. My intern project focused on creating a gRPC service in Go that automatically fetches code 
+    samples from Git repositories, expanding the benchmarking dataset.`,
+    link: "https://about.google/",
+    color: "border-orange-500",
+    underline: "decoration-orange-500",
+  },
+  {
+    title: "Software Developer Intern",
     company: "Titan",
-    description: `At a NYC FinTech startup, I engineered automated trading tools for over 50K clients. 
-    I launched Titan Wrapped, a year-end feature that harnessed a clustering algorithm to craft personalized investment profiles 
-    and showcase financial achievements. This initiative not only highlighted Titan's value but also unlocked upselling opportunities.`,
+    description: `At the NYC FinTech startup, I prototyped Titan Wrapped, a year-end feature that applied clustering algorithms to create 
+    personalized investment profiles and highlight financial achievements. I also developed models to predict churn and identify upsell opportunities 
+    to boost customer engagement and rentention.`,
     link: "https://www.titan.com/",
     color: "border-cyan-500",
     underline: "decoration-cyan-500",
