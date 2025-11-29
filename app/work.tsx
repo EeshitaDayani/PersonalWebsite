@@ -13,7 +13,7 @@ const experiences: Work[] = [
   {
     title: "Software Developer Intern",
     company: "Google",
-    description: `As part of the AI Benchmarking team, I built worked on evaluating the code-generation abilities of large language models by 
+    description: `As part of the AI Benchmarking team, I worked on evaluating the code-generation abilities of large language models by 
     building infrastructure for data curation. My intern project focused on creating a gRPC service in Go that automatically fetches code 
     samples from Git repositories, expanding the benchmarking dataset.`,
     link: "https://about.google/",
